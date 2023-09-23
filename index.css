@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+}
+body{
+    background-image: url('sketch.png');
+    background-repeat: no-repeat;
+    background-size: 1370px 700px;
+  }
+
+h1 {
+    margin-top: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-row: 0px;
+    grid-column: 0px;
+    border: 1px inherit;
+    
+}
+
+.grid-item {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #999;
+    transition: background-color 0.3s;
+   
+}
