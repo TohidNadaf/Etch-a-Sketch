@@ -20,7 +20,6 @@ The Etch-a-sketch project is a simple web application that allows users to draw 
 - Color transitions are applied for smooth drawing effect.
 
 **JavaScript:**
-- JavaScript code is embedded within `<script>` tags at the end of the `<body>` section.
 - It handles the functionality of the Etch-a-sketch:
   - The current drawing color is set initially to black.
   - Event listeners are used to change the drawing color using the color picker and to activate the eraser tool.
